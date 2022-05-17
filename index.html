@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game</title>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+  <audio id="myAudio"><source src="img/music.mp3" type="audio/wav"></audio>
+  <h1>Press 2 to turn off volume<br> Press 1 to turn it back on<br> PLAYER ONE: WASD <br>PLAYER TWO: ARROW KEYS</h1>
+
+  <div id="game">
+    <div id="p1">
+      <img id="P1img">
+    </div>
+    <div id="p2">
+      <img id="P2img" class="mirror">
+    </div>
+  </div>
+  <div class="pointscontainer">
+    <p id="p1Points"></p>
+    <p id="timer"></p>
+    <p id="p2Points"></p>
+  </div>
+</body>
+
+</html>
